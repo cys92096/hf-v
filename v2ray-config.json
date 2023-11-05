@@ -1,0 +1,29 @@
+{
+  "inbounds": [
+    {
+      "port": 17860,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "b831381d-6324-4d53-ad5f-8cda48b30811",
+            "level": 0
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/upload"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
